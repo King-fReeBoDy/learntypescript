@@ -1,0 +1,45 @@
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  margin-block: 2px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.formsubmit {
+  width: 100%;
+  display: flex;
+  border: 1px solid black;
+}
+
+.inputel {
+  width: 100%;
+  border: 0;
+}
+
+.btn {
+  border: 0;
+  padding: 7px;
+  background-color: blue;
+  color: white;
+  margin-left: 3px;
+  outline: 0;
+}
+
+.btn:active,
+.btn:focus {
+  outline: 0;
+  border: 0;
+}
+
+.delete {
+  background-color: blue;
+  color: white;
+  border: 0;
+  padding: 5px;
+  margin-block: 5px;
+}
